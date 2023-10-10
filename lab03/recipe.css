@@ -1,0 +1,8 @@
+body { background-color: #ffffff;
+    color: #242424; margin: 0; }
+h1 { color: #000000; font-family: Georgia, "Times New Roman", serif; text-transform: uppercase; }
+h2 { background-color: #800080; color: #FFFFFF; font-family: Georgia, "Times New Roman", serif;}
+h3 {background-color: #c38bbf;}
+p { font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0; }
+li {text-transform: lowercase; }
