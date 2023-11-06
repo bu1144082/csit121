@@ -1,0 +1,42 @@
+.container .first h1
+{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: aliceblue;
+   
+}
+#Welcome
+{
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(108, 83, 162);
+    width: 100%;
+    height: 200px;  
+}
+#nav
+{
+    height: 50px;
+}
+
+#nav ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+#nav ul li a
+{
+    color: black;
+}
+#favourte
+{
+    background-color: rgb(198, 219, 212);
+   text-align: center;
+}
+#favourte .intro p span
+{
+    color: green;
+
+}
+
+
