@@ -1,0 +1,107 @@
+.container {
+  background-image: url("kagyana-2955466_1920.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+  height: 400px;
+}
+#intro {
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+#intro button {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+}
+#intro button:hover {
+  background-color: blue;
+  color: white;
+}
+
+#second .ingradients {
+  width: 600px;
+  background-color: lightblue;
+  border-radius: 20px;
+  position: relative;
+  top: 60px;
+}
+#second .instructions {
+  background-color: lightblue;
+  border-radius: 20px;
+  position: relative;
+  top: 60px;
+  width: 600px;
+}
+#second {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pics_gallery img {
+  width: 380px;
+  height: 300px;
+  border: 5px solid white;
+  border-radius: 20px;
+  border: 3px solid;
+}
+.pics_gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.favourite {
+  text-align: center;
+  background-color: beige;
+  margin-top: 50px;
+  color: black;
+  border-radius: 20px;
+}
+.pics_gallery img:hover {
+  transform: scale(0.9);
+}
+.favourite h3 {
+  padding-top: 20px;
+}
+@media screen and(max-width: 760px) {
+  .container {
+    height: auto;
+    background-image: none;
+    color: black;
+    font-size: 16px;
+  }
+  #intro {
+    padding-top: 50px;
+    font-size: 16px;
+  }
+  #intro button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+  #second .ingradients,
+  #second .instructions {
+    width: 100%;
+    position: static;
+    top: auto;
+    background-color: transparent;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+
+  .pics_gallery img {
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+  }
+  .favourite {
+    margin-top: 30px;
+    background-color: beige;
+    color: black;
+    border-radius: 0;
+  }
+}
