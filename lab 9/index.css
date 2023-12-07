@@ -1,0 +1,192 @@
+.container {
+  background-image: url("kagyana-2955466_1920.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+  height: 400px;
+}
+#intro {
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+#intro button {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+}
+#intro button:hover {
+  background-color: blue;
+  color: white;
+}
+
+#second .ingradients {
+  width: 600px;
+  background-color: lightblue;
+  border-radius: 20px;
+  position: relative;
+  top: 60px;
+}
+#second .instructions {
+  background-color: lightblue;
+  border-radius: 20px;
+  position: relative;
+  top: 60px;
+  width: 600px;
+}
+#second {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pics_gallery img {
+  width: 380px;
+  height: 300px;
+  border: 5px solid white;
+  border-radius: 20px;
+  border: 3px solid;
+}
+.pics_gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.favourite {
+  text-align: center;
+  background-color: beige;
+  margin-top: 50px;
+  color: black;
+  border-radius: 20px;
+}
+.pics_gallery img:hover {
+  transform: scale(0.9);
+}
+.favourite h3 {
+  padding-top: 20px;
+}
+#table{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+table{
+  width: 80%;
+  border-collapse: collapse;
+  color: black;
+}
+th, td {
+  border: 1px solid grey;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+  background-color:rgb(230, 227, 227);
+}
+.colspan {
+  background-color: #ffe0e0;
+}
+.rowspan {
+  background-color: #e0e0ff;
+}
+tfoot{
+  font-weight: bold;
+}
+
+.forms {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.forms h5 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.forms form {
+  display: flex;
+  flex-direction: column;
+}
+
+.forms label {
+  margin-bottom: 12px;
+}
+.forms input[type="text"],.forms select,.forms button{
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+.forms button{
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background-color: #55a049;
+  cursor: pointer;
+}
+.forms button:hover{
+  background-color: rgb(51, 133, 51);
+}
+.vedio-making{
+  height: 200px;
+  padding-top: 30px;
+  text-align: center;
+  color: black;
+}
+.vedio-making video{
+width: 500px;
+height: 250px;
+}
+
+
+@media screen and (max-width: 760px) {
+  .container {
+    height: auto;
+    background-image: none;
+    color: black;
+    font-size: 16px;
+  }
+  #intro {
+    padding-top: 50px;
+    font-size: 16px;
+  }
+  #intro button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+  #second .ingradients,
+  #second .instructions {
+    width: 100%;
+    position: static;
+    top: auto;
+    background-color: transparent;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+
+  .pics_gallery img {
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+  }
+  .favourite {
+    margin-top: 30px;
+    background-color: beige;
+    color: black;
+    border-radius: 0;
+  }
+}
